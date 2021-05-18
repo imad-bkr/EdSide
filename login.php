@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <form class="form center-box" action="" method="post">
+    <form class="form" action="" method="post">
         <h1 class="form-title">Connexion</h1>
         <input id="input-mail" class="form-input" type="email" name="" placeholder="Addresse mail">
         <input id="input-password" class="form-input" type="password" name="" placeholder="Mot de passe">
-        <input class="form-submit" type="submit" value="Connexion">
+        <input class="form-submit" type="submit" value="se connecter">
         <a href="">mot de passe oublié</a>
         <a href="">s'inscrire</a>
     </form>

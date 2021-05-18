@@ -22,21 +22,8 @@ body {
 
 .form-title {
     font-size: 2em;
+    text-transform: uppercase;
 }
-/* 
-.form-input {
-    display: block;
-    width: 150px;
-    margin: 20px auto;
-    padding: 10px 20px;
-    text-align: center;
-    background: #fff;
-    color: #000;
-    border: 2px solid #ff9800;
-    border-radius: 20px;
-    outline: none;
-    transition: 0.25s;
-} */
 
 .form-input {
     display: block;
@@ -60,7 +47,7 @@ body {
 
 .form-submit {
     display: block;
-    width: 100px;
+    width: 120px;
     margin: 20px auto;
     padding: 5px 10px;
     background:#ff9800;
