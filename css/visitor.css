@@ -78,6 +78,11 @@ p {
     padding: 30px;
 }
 
+.info-calendar {
+    border-top-left-radius: 33%;
+    border-top-right-radius: 33%;
+}
+
 .info-calendar,
 .info-tutoring {
     background-color: rgb(35, 35, 95);

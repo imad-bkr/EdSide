@@ -50,7 +50,7 @@ a {
 }
 
 .user-menu {
-    display: none;
+    display: block;
     width: 250px;
     color: #FFF;
     position: absolute;
@@ -136,4 +136,8 @@ a {
     margin-top: auto;
     padding: 30px;
     flex: none;
+}
+
+.hidden {
+    display: none;
 }
