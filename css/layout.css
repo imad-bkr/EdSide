@@ -2,5 +2,138 @@
     box-sizing: border-box;
 }
 
-/* header */
+html, body {
+    margin: 0;
+    height: 100%;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(7, 7, 61);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 0 0 0 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.user {
+    line-height: 60px;
+    width: 250px;
+    text-align: center;
+}
+
+.user:hover {
+    background-color: rgb(35, 35, 95);
+}
+
+.user-menu {
+    display: none;
+    width: 250px;
+    color: #FFF;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background: rgb(35, 35, 95);
+    padding: 10px 20px;
+    border-bottom-left-radius: 15px;
+    line-height: 2rem;
+}
+
+.user-menu a:hover {
+    color: #FF9800;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-element {
+    background-color: #f5f5f5;
+    flex: 1 1;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.nav-element:hover {
+    background-color: #e0e0e0;
+}
+
+.nav-element::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 0;
+    height: 3px;
+    background: #ff9800;
+    transition: 0.12s;
+}
+
+.nav-element:hover::after,
+.nav-element.current::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #ff9800;
+    transition: 0.12s
+}
+
+.nav-element:hover::after {
+    background-color: #ffc947;
+}
+
+.logo-mini {
+    width: 50px;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    flex: 1 0;
+}
+
+.posts {
+    flex: 1 1;
+}
+
+.sidebar {
+    width: 250px;
+    flex: none;
+}
+
+.footer {
+    background: #1b1b1b;
+    color: #FFF;
+    margin-top: auto;
+    padding: 30px;
+    flex: none;
+}

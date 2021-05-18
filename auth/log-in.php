@@ -3,7 +3,6 @@
     $css = "../css/auth.css"; 
     include("../layout/head.php") 
 ?>
-
 <body>
     <form class="form" action="" method="post">
         <a class="back" href="../index.php">← Retour à l'accueil</a>
@@ -14,5 +13,5 @@
         <input class="form-submit" type="submit" value="Se connecter">
         <a href="sign-in.php">Nouveau ? Créer un compte</a>
     </form>
-
-<?php include("../layout/footer.php"); ?>
+</body>
+</html>

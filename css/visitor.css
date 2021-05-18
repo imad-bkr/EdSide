@@ -35,10 +35,11 @@ p {
 .log-in a {
     font-size: 20px;
     color: #FFF;
+    text-decoration: none;
 }
 
 .log-in a:hover {
-    color: rgb(221, 141, 12);
+    color: #FF9800;
 }
 
 .edside-presentation{
@@ -64,6 +65,8 @@ p {
     width: 200px;
     height: auto;
     margin: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 50%;
 }
 
 .presentation,

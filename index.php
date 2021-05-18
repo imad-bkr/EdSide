@@ -3,6 +3,7 @@
     $css = "css/visitor.css";
     include("layout/head.php");
 ?>
+<body>
     <header class="header">
         <img src="img/flag.png" alt="language">
         <p class="log-in"><a href="auth/log-in.php">Connexion</a> | <a href="auth/sign-in.php">Inscription</a></p>
@@ -38,5 +39,6 @@
             </div>
         </section>
     </main>
-    <footer class="footer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur eligendi tempora corporis rem maiores architecto adipisci veritatis sunt aperiam, nemo exercitationem dignissimos dolor, iste assumenda explicabo dicta expedita autem temporibus.</footer>
 <?php include("layout/footer.php"); ?>
+</body>
+</html>

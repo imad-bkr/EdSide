@@ -3,7 +3,6 @@
     $css = "../css/auth.css"; 
     include("../layout/head.php") 
 ?>
-
 <body>
     <form class="form" action="" method="post">
         <a class="back" href="log-in.php">← Retour à la page de connexion</a>
@@ -12,4 +11,5 @@
         <input class="form-input" type="email" name="input-mail" placeholder="Adresse e-mail">
         <input class="form-submit" type="submit" value="Envoyer">
     </form>
-<?php include("../layout/footer.php"); ?>
+</body>
+</html>
