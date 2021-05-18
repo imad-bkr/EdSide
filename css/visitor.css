@@ -12,6 +12,7 @@ p {
     padding:5px 0;
     
 }
+
 .header {
     background: rgb(7, 7, 61);
     display: flex;
@@ -77,6 +78,15 @@ p {
 .info-tutoring {
     background-color: rgb(35, 35, 95);
     color: #FFF;
+}
+
+.info-calendar img,
+.info-tutoring img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32), 0 3px 6px rgba(0, 0, 0, 0.46);
+}
+
+.info-simulator img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .info-calendar h2::after,
