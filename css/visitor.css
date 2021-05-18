@@ -23,6 +23,7 @@ p {
     align-items: center;
     padding: 20px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    z-index: 2;
 }
 
 .header img {
@@ -35,10 +36,11 @@ p {
 .log-in a {
     font-size: 20px;
     color: #FFF;
+    text-decoration: none;
 }
 
 .log-in a:hover {
-    color: rgb(221, 141, 12);
+    color: #FF9800;
 }
 
 .edside-presentation{
@@ -64,6 +66,8 @@ p {
     width: 200px;
     height: auto;
     margin: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 50%;
 }
 
 .presentation,
@@ -72,7 +76,19 @@ p {
 .info-tutoring {
     display: flex;
     justify-content: space-around;
-    padding: 30px;
+    padding: 60px 30px;
+}
+
+.presentation::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(35, 35, 95);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
 .info-calendar,

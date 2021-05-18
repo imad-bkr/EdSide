@@ -58,7 +58,7 @@ body {
 
 .form-select {
     display: inline-block;
-    width: 100px;
+    width: 120px;
     margin: 10px 5px;
     padding: 5px 5px;
     text-align: center;
@@ -70,6 +70,10 @@ body {
     text-align: center;
     outline: none;
     transition: 0.25s;
+}
+
+.form-select:focus {
+    border-color: #ffc947;
 }
 
 .form-submit {
