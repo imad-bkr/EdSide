@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <img src="img/flag.png" alt="language">
-        <p class="log-in"><a href="">Connexion</a> | <a href="">Inscription</a></p>
+        <p class="log-in"><a href="login.php">Connexion</a> | <a href="">Inscription</a></p>
     </header>
     <main class="main">
         <section class="presentation">

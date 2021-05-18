@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(35, 35, 95);
+}
+
+.form {
+    background: #f5f5f6;
+    position: absolute;
+    width: 400px;
+    padding: 20px;
+    /* center */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.form-title {
+    font-size: 2em;
+}
+/* 
+.form-input {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    border: 2px solid #ff9800;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.25s;
+} */
+
+.form-input {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ff9800;
+    color: #000;
+    font-size: 1em;
+    outline: none;
+    transition: 0.25s;
+}
+
+.form-input:focus {
+    width: 250px;
+    border-color: #ffc947;
+}
+
+.form-submit {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 5px 10px;
+    background:#ff9800;
+    /* border: 2px solid #ff9800; */
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.form-submit:focus,
+.form-submit:hover{
+    background: #ffc947;
+}
+.form a {
+    color: #00458b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form a:focus,
+.form a:hover {
+    text-decoration: underline;
+}
