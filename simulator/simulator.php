@@ -1,6 +1,6 @@
 <?php 
     $title = "EdSide - Rechercher une annonce";
-    $css = "../css/layout.css";
+    $css = "/css/layout.css";
     include("../layout/head.php"); 
 ?>
 <body>

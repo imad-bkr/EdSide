@@ -10,15 +10,13 @@
         include("../layout/navbar.php"); 
     ?>
     <main class="main">
-        <aside class="sidebar">
+        <a href="browse.php">Retour aux annonces</a>
+        <section class="info-profil">
 
-        </aside>
-        <section class="posts">
-            <div class="post">
-
-            </div>
         </section>
-        <a href="profil.php">Mon profil</a>
+        <section class="my-posts">
+
+        </section>
     </main>
     <?php include("../layout/footer.php"); ?>
 </body>

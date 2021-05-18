@@ -26,6 +26,8 @@ a {
     color: inherit;
 }
 
+/* header */
+
 .header {
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(7, 7, 61);
@@ -65,6 +67,8 @@ a {
 .user-menu a:hover {
     color: #FF9800;
 }
+
+/* navbar */
 
 .nav-bar {
     width: 100%;
@@ -116,6 +120,18 @@ a {
     height: auto;
 }
 
+/* footer */
+
+.footer {
+    background: #1b1b1b;
+    color: #FFF;
+    margin-top: auto;
+    padding: 30px;
+    flex: none;
+}
+
+/* tutoring */
+
 .main {
     display: flex;
     flex: 1 0;
@@ -130,13 +146,7 @@ a {
     flex: none;
 }
 
-.footer {
-    background: #1b1b1b;
-    color: #FFF;
-    margin-top: auto;
-    padding: 30px;
-    flex: none;
-}
+/* useful */
 
 .hidden {
     display: none;

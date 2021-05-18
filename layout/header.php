@@ -1,5 +1,5 @@
 <header class="header">
-    <img class="logo-mini" src="../img/logo.png" alt="EdSide">
+    <img class="logo-mini" src="/img/logo.png" alt="EdSide">
     <div class="user">Nom d'utilisateur</div>
     <ul class="user-menu hidden">
         <a href=""><li>Paramètres</li></a>
