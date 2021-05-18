@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/visitor.css">
-    <title>EdSide : Always by your side!</title>
-</head>
-
-<body>
+<?php include("layout/header.php"); ?>
     <header class="header">
         <img src="img/flag.png" alt="language">
-        <p class="log-in"><a href="log-in.php">Connexion</a> | <a href="sign-in.php">Inscription</a></p>
+        <p class="log-in"><a href="auth/log-in.php">Connexion</a> | <a href="auth/sign-in.php">Inscription</a></p>
     </header>
     <main class="main">
         <section class="presentation">
@@ -46,7 +35,4 @@
         </section>
     </main>
     <footer class="footer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur eligendi tempora corporis rem maiores architecto adipisci veritatis sunt aperiam, nemo exercitationem dignissimos dolor, iste assumenda explicabo dicta expedita autem temporibus.</footer>
-    <script src="script.js"></script>
-</body>
-
-</html>
+<?php include("layout/footer.php"); ?>
