@@ -1,4 +1,8 @@
-<?php include("layout/header.php"); ?>
+<?php
+    $title = "EdSide - Always by your side!";
+    $css = "css/visitor.css";
+    include("layout/head.php");
+?>
     <header class="header">
         <img src="img/flag.png" alt="language">
         <p class="log-in"><a href="auth/log-in.php">Connexion</a> | <a href="auth/sign-in.php">Inscription</a></p>

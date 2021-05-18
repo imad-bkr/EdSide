@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/auth.css">
-    <title>EdSide - Mot de passe oublié?</title>
-</head>
+<?php 
+    $title = "EdSide - Mot de passe oublié?";
+    $css = "../css/auth.css"; 
+    include("../layout/head.php") 
+?>
 
 <body>
     <form class="form" action="" method="post">
@@ -17,6 +12,4 @@
         <input class="form-input" type="email" name="input-mail" placeholder="Adresse e-mail">
         <input class="form-submit" type="submit" value="Envoyer">
     </form>
-</body>
-
-</html>
+<?php include("../layout/footer.php"); ?>
