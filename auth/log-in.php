@@ -7,6 +7,7 @@
 <body>
     <?php 
         function getPasswordUser($username) {
+            /* l'utilisateur existe forcément dans la bdd */
             $bdd = connexionPDO();
             $req = "SELECT * FROM utilisateurs
             WHERE username = :username";
@@ -20,7 +21,7 @@
 
         function isConnexionValid($username, $password) {
             $user = getPasswordUser($username);
-            return password_verify($password, $user['password']);
+            return $password === $user['password'];
         }
         if(isset($_SESSION['access']) && !empty($_SESSION['access'])
         && $_SESSION['access'] === "user") {
