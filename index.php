@@ -1,4 +1,5 @@
 <?php
+session_start();
     $title = "EdSide - Always by your side!";
     $css = "css/visitor.css";
     include("layout/head.php");
