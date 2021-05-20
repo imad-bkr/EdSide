@@ -9,7 +9,7 @@
         $curr = "tutoring";
         include("../layout/navbar.php"); 
     ?>
-    <main class="main">
+    <main class="browse-main">
         <aside class="sidebar">
 
         </aside>
@@ -18,7 +18,7 @@
 
             </div>
         </section>
-        <a href="profil.php">Mon profil</a>
+        <a class="browse-link-profil" href="profil.php">Mon profil</a>
     </main>
     <?php include("../layout/footer.php"); ?>
 </body>
