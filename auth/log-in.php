@@ -4,7 +4,7 @@
     include("../layout/head.php") 
 ?>
 <body>
-    <form class="form" action="/tutoring/browse.php" method="post"> <!--//! tmp link  -->
+    <form class="form" action="../tutoring/browse.php" method="post"> <!--//! tmp link  -->
         <a class="back" href="../index.php">← Retour à l'accueil</a>
         <h1 class="form-title">Connexion</h1>
         <input class="form-input" type="email" name="input-mail" placeholder="Adresse e-mail">

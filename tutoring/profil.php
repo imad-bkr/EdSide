@@ -1,6 +1,6 @@
 <?php 
     $title = "EdSide - Rechercher une annonce";
-    $css = "/css/layout.css";
+    $css = "../css/layout.css";
     include("../layout/head.php"); 
 ?>
 <body>
@@ -30,7 +30,7 @@
             <h2>Mes annonces</h2>
             <div class="my-post">
                 <p>Je cherche un parrain pour m'accompagner cette année</p>
-                <img class="post-edit" src="/icons/icon-edit.svg" alt="Edit profile">
+                <img class="post-edit" src="../icons/icon-edit.svg" alt="Edit profile">
                 <!-- <a class="post-edit" href="">Modifier</a> -->
                 <span>Tag1</span> <span>Tag2</span> <span>Tag3</span>
             </div>
