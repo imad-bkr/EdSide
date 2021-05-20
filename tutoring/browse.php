@@ -15,7 +15,8 @@
         </aside>
         <section class="posts">
             <div class="post">
-
+            </div>
+            <div class="post">
             </div>
         </section>
         <a class="browse-link-profil" href="profil.php">Mon profil</a>
